@@ -25,11 +25,35 @@ h2{
   font-weight: normal;
 }
 
+h3{
+  text-align: left;
+  color: #424242;
+  font-family: "Calibri";
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p{
+  color: #424242;
+}
+
+
 #contactInfo2 {
   
   overflow: hidden; 
   display: inline;
   font-size: 14px;
+}
+
+#content {
+  width: 74%;
+  height: 500px;
+  background-color: #E4EAD6;
+   -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-top: 1px;
 
 }
 
