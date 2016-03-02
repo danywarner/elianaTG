@@ -9,10 +9,10 @@
 
 <div id='cssmenu'>
 <ul>
-   <li class='active'><a href='index.html'><span>Inicio</span></a></li>
-   <li><a href='propuesta.html'><span>Propuesta</span></a></li>
-   <li><a href='memoria.html'><span>Memoria</span></a></li>
-   <li class='last'><a href='entregables.html'><span>Entregables</span></a></li>
+   <li id="home" class='active navLink'><a href='#'><span>Inicio</span></a></li>
+   <li id="propuesta" class="navLink"><a href='#'><span>Propuesta</span></a></li>
+   <li id="memoria" class="navLink"><a href='#'><span>Memoria</span></a></li>
+   <li id="entregables" class='last navLink'><a href='#'><span>Entregables</span></a></li>
 </ul>
 </div>
 
@@ -32,7 +32,7 @@
 	</div>
 </div>
 
-<div id="content">
+<div class="content show" id="homeContent">
 	<h3>Objetivo General:</h3>
 	<p>El objetivo general del presente es xyz</p>
 	<h3>Objetivos Específicos:</h3>
@@ -42,8 +42,28 @@
 	<h3>Justificación:</h3>
 	<p>Yo hice esta tesis solo para graduarme y ya</p>
 </div>
-
-
-
+<br>
+<div class="content hide" id="propuestaContent">
+	<h3>Propuesta:</h3>
+	<h3>Documentos:</h3>
+	<p>&bull;Documento 1</p>
+	<p>&bull;Documento 2</p>
+	<p>&bull;Documento 3</p>
+</div>
+<br>
+<div class="content hide" id="memoriaContent">
+	<h3>Memoria:</h3>
+	<p>&bull;Memoria 1</p>
+	<p>&bull;Memoria 2</p>
+	<p>&bull;Memoria 3</p>
+</div>
+<br>
+<div class="content hide" id="entregablesContent">
+	<h3>Entregables:</h3>
+	<p>&bull;Entregable 1</p>
+	<p>&bull;Entregable 2</p>
+	<p>&bull;Entregable 3</p>
+</div>
+	<script src="js/script.js"></script>
 </body>
 </html>

@@ -5,6 +5,14 @@ body{
 	font-family: "Calibri";
 }
 
+.show {
+  display: inherit;
+}
+
+.hide {
+  display: none;
+}
+
 #header {
   width: 100%;
   overflow: hidden; 
@@ -45,7 +53,7 @@ p{
   font-size: 14px;
 }
 
-#content {
+.content {
   width: 74%;
   height: 500px;
   background-color: #E4EAD6;
@@ -54,7 +62,6 @@ p{
   border-radius: 4px;
   padding-left: 10px;
   padding-top: 1px;
-
 }
 
 #cssmenu,
