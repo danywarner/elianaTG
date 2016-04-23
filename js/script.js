@@ -3,9 +3,7 @@
 function addListeners() {
 
 	document.querySelector("#home").addEventListener("click", toggleContent,false);
-	document.querySelector("#propuesta").addEventListener("click", toggleContent,false);
-	document.querySelector("#memoria").addEventListener("click", toggleContent,false);
-	document.querySelector("#entregables").addEventListener("click", toggleContent,false);
+	document.querySelector("#documentos").addEventListener("click", toggleContent,false);
 
 }
 
